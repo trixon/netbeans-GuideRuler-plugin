@@ -69,7 +69,7 @@
     </dependencies>
 
     <properties>
-        <netbeans.version>RELEASE230</netbeans.version>
+        <netbeans.version>RELEASE240</netbeans.version>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
