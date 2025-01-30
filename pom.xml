@@ -6,6 +6,33 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>nbm</packaging>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>trixon</id>
+            <name>Patrik Karlström</name>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <email>patrik@trixon.se</email>
+            <url>https://trixon.se</url>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/trixon/netbeans-plugin-guideruler</url>
+        <connection>scm:git:git://github.com/trixon/netbeans-plugin-guideruler.git</connection>
+        <developerConnection>scm:git:git@github.com:trixon/netbeans-plugin-guideruler.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -61,7 +88,7 @@
     </dependencies>
 
     <properties>
-        <netbeans.version>RELEASE230</netbeans.version>
+        <netbeans.version>RELEASE240</netbeans.version>
         <netbeans.hint.license>apache20</netbeans.hint.license>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
